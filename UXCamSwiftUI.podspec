@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     			= 'UXCamSwiftUI'
-  s.version  			= '1.0.4'
+  s.version  			= '1.0.5'
   
   s.summary 			= "UXCam SwiftUI wrapper SDK for iOS applications"
   s.description 		= <<-DESC
@@ -19,13 +19,13 @@ Pod::Spec.new do |s|
   
   s.platform 			= :ios, 13.0
 
-  s.source 				= { :http => "https://raw.githubusercontent.com/uxcam/ios-swiftui/#{s.version}/UXCamSwiftUI.xcframework.zip" }
+  s.source 				= { :http => "https://raw.githubusercontent.com/uxcam/uxcam-ios-swiftui/#{s.version}/UXCamSwiftUI.xcframework.zip" }
   s.vendored_frameworks = 'UXCamSwiftUI.xcframework'
   
   s.static_framework 	= true
   s.requires_arc		= true
   
-  s.dependency 'UXCam', '~>3.6.2'
+  s.dependency 'UXCam', '~>3.6.9'
   s.swift_version = '5.0'
 
 end
