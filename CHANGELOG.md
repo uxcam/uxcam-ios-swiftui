@@ -5,6 +5,7 @@
 
 Version   | Changes
 ---------- | ----------
+1.0.6   | Updated iOS SDK version to 3.6.11
 1.0.5   | Updated iOS SDK version to 3.6.9
 1.0.4   | Updated iOS SDK version to 3.6.2
 1.0.3   | Updated iOS SDK version to 3.6.1
