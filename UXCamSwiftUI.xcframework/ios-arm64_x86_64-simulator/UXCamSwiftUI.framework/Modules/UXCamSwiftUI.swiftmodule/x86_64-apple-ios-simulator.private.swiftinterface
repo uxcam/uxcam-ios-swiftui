@@ -1,0 +1,30 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UXCamSwiftUI
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Swift
+import SwiftUI
+import UXCam
+@_exported import UXCamSwiftUI
+import _Concurrency
+import _StringProcessing
+public typealias UXCamCore = UXCam
+public typealias Occlusion = UXCamOcclusion
+public typealias BlurSetting = UXCamBlurSetting
+public typealias OverlaySetting = UXCamOverlaySetting
+public typealias OccludeAllTextFields = UXCamOccludeAllTextFields
+@objc @_inheritsConvenienceInitializers public class Configuration : UXCamConfiguration {
+  @objc override dynamic public var enableAutomaticScreenNameTagging: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc override dynamic public init(appKey userAppKey: Swift.String)
+  @objc deinit
+}
+public func start(with configuration: UXCamSwiftUI.Configuration, sessionStarted: ((Swift.Bool) -> ())? = nil)
+extension SwiftUI.View {
+  public func uxcamOcclude(blockGestures: Swift.Bool = true) -> some SwiftUI.View
+  
+  public func uxcamTagScreenName(_ screenName: Swift.String) -> some SwiftUI.View
+  
+}
