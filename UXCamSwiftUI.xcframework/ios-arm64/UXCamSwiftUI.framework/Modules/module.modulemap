@@ -1,0 +1,11 @@
+framework module UXCamSwiftUI {
+  umbrella header "UXCamSwiftUI.h"
+
+  export *
+  module * { export * }
+}
+
+module UXCamSwiftUI.Swift {
+  header "UXCamSwiftUI-Swift.h"
+  requires objc
+}
