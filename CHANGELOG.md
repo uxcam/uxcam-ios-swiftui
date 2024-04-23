@@ -5,6 +5,7 @@
 
 Version   | Changes
 ---------- | ----------
+1.0.7   | SwiftUI automatic screen tagging feature and fix for SDK build issue in Xcode versions less than 15.3
 1.0.6   | Updated iOS SDK version to 3.6.11
 1.0.5   | Updated iOS SDK version to 3.6.9
 1.0.4   | Updated iOS SDK version to 3.6.2
