@@ -14,10 +14,6 @@ public typealias BlurSetting = UXCamBlurSetting
 public typealias OverlaySetting = UXCamOverlaySetting
 public typealias OccludeAllTextFields = UXCamOccludeAllTextFields
 @objc @_inheritsConvenienceInitializers public class Configuration : UXCamConfiguration {
-  @objc override dynamic public var enableAutomaticScreenNameTagging: Swift.Bool {
-    @objc get
-    @objc set
-  }
   @objc override dynamic public init(appKey userAppKey: Swift.String)
   @objc deinit
 }

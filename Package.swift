@@ -2,7 +2,7 @@
 import PackageDescription
 
 let version = "1.0.7"
-let checksum = "d59095c5dd4e4de9a8ea9602fabecdb9319e54ea63331785d2ea06f2c16831b8"
+let checksum = "672dc5a6a12c10edf9548eaf3a065e6f7c748afbead202f8f620948943a18171"
 let repoName = "swiftui-internal"
 
 let package = Package(

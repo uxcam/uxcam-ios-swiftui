@@ -283,11 +283,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 @class NSString;
 
-/// Configure the UXCam SwiftUI SDK
 SWIFT_CLASS("_TtC12UXCamSwiftUI13Configuration")
 @interface Configuration : UXCamConfiguration
-/// SwiftUI requires manual screen name tagging so this is locked to <code>false</code>
-@property (nonatomic) BOOL enableAutomaticScreenNameTagging;
 - (nonnull instancetype)initWithAppKey:(NSString * _Nonnull)userAppKey OBJC_DESIGNATED_INITIALIZER;
 @end
 
