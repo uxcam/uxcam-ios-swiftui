@@ -1,13 +1,14 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UXCamSwiftUI
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name UXCamSwiftUI
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2
 import Swift
 import SwiftUI
 import UXCam
 @_exported import UXCamSwiftUI
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public typealias UXCamCore = UXCam
 public typealias Occlusion = UXCamOcclusion
 public typealias BlurSetting = UXCamBlurSetting
@@ -18,9 +19,9 @@ public typealias OccludeAllTextFields = UXCamOccludeAllTextFields
   @objc deinit
 }
 public func start(with configuration: UXCamSwiftUI.Configuration, sessionStarted: ((Swift.Bool) -> ())? = nil)
-extension SwiftUI.View {
-  public func uxcamOcclude(blockGestures: Swift.Bool = true) -> some SwiftUI.View
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func uxcamOcclude(blockGestures: Swift.Bool = true) -> some SwiftUICore.View
   
-  public func uxcamTagScreenName(_ screenName: Swift.String) -> some SwiftUI.View
+  @_Concurrency.MainActor @preconcurrency public func uxcamTagScreenName(_ screenName: Swift.String) -> some SwiftUICore.View
   
 }

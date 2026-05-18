@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage 			= "https://uxcam.com/"
   s.license      		= {
     'type' => 'Copyright',
-    'text' => 'Copyright (c) 2021-2024, UXCam Inc. All rights reserved.'
+    'text' => 'Copyright (c) 2021-2026, UXCam Inc. All rights reserved.'
   }
 
   s.author   			= { 'UXCam' => 'admin@uxcam.com' }
