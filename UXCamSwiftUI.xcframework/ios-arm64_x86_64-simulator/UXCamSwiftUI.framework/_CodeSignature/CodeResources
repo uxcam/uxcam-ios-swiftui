@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/UXCamSwiftUI-Swift.h</key>
 		<data>
-		FYSKesiR4GgPnFtwmvge9mA7A7w=
+		EnVUW6YPls9okpJw2lt4IDER45s=
 		</data>
 		<key>Headers/UXCamSwiftUI.h</key>
 		<data>
@@ -14,76 +14,68 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kgnxK+jA7vnwRj0gPiZM6g+6c6g=
+		ETp4Oo7jeEijHNdGE9QWRZl3JDQ=
 		</data>
 		<key>Modules/UXCamSwiftUI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		D8DgVLnvZxW4OhmCtPsdubOyaBQ=
+		5yjxaAr9dECsE6TpDJf7aQPhoLc=
 		</data>
 		<key>Modules/UXCamSwiftUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		HeQOAUgS3cPtBiUaWrG3ljEOr4o=
+		Ys4qHKOwSXOd3Z1JHhqQLat0+F8=
 		</data>
 		<key>Modules/UXCamSwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		HZj6g6tkR8RjKES2IKqbhdReYt8=
+		AtiEUy6wf2fSScWgKxtEKWAockU=
 		</data>
 		<key>Modules/UXCamSwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		HeQOAUgS3cPtBiUaWrG3ljEOr4o=
+		Ys4qHKOwSXOd3Z1JHhqQLat0+F8=
 		</data>
 		<key>Modules/UXCamSwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1V8EzSnGZKVgQCB0v7cTBLxGxHc=
+		hOSzz7E11X1rzk9D4UQteM38YRE=
 		</data>
 		<key>Modules/UXCamSwiftUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		D8DgVLnvZxW4OhmCtPsdubOyaBQ=
+		5yjxaAr9dECsE6TpDJf7aQPhoLc=
 		</data>
 		<key>Modules/UXCamSwiftUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pw+k6iMFkwopjKLEtPa/VPYFX/U=
+		FJUo6jU+OwdE6eJcjwZCxUs6LQI=
 		</data>
 		<key>Modules/UXCamSwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		r5+3yfZxeX9Tn02ycbrz9Nm8t9I=
+		RvPoJOlt1TUhPFrZvXaW4BB/+xo=
 		</data>
 		<key>Modules/UXCamSwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pw+k6iMFkwopjKLEtPa/VPYFX/U=
+		FJUo6jU+OwdE6eJcjwZCxUs6LQI=
 		</data>
 		<key>Modules/UXCamSwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mJdpBthjhPbH1c4gJ2s7WZKE/lk=
+		K5bFbSXvANbQl6czclyFHkp9kto=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		MHhji3iYoKySFVacrLaTMarZef0=
+		5wrhmySoRiLfBzFJ9Sp8k4kV6os=
 		</data>
 		<key>README.md</key>
 		<data>
-		rlUIkoRBfq0YAfG+DX789OGJm+k=
+		WDd6Yqsi9Fh2yODpWh546XLU4xw=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/UXCamSwiftUI-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FYSKesiR4GgPnFtwmvge9mA7A7w=
-			</data>
 			<key>hash2</key>
 			<data>
-			u94ZWw8bYcOONZs9PyKQAMFBvmJYV06kr6yc+jQSaFk=
+			pAPCf8PEdnuxd0u21RfKuvHNcujmBQ6s6gscazUyUwM=
 			</data>
 		</dict>
 		<key>Headers/UXCamSwiftUI.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			esX9Frs1yMbkbODA91CJ7nzdLAQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			ECj5ekyYf5MvTj5ImsnAITDMgmArwvdBqWrGHxTVm1Q=
@@ -91,134 +83,86 @@
 		</dict>
 		<key>Modules/UXCamSwiftUI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			D8DgVLnvZxW4OhmCtPsdubOyaBQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			0jwt/QqgvcIU+ZqdWYa8s2ZwlIpdood68Jcz/Z0v6uE=
+			aiWnNjxHMDj9tpT6//ecymjUY7ghe3k+e8eE2UEc71Y=
 			</data>
 		</dict>
 		<key>Modules/UXCamSwiftUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HeQOAUgS3cPtBiUaWrG3ljEOr4o=
-			</data>
 			<key>hash2</key>
 			<data>
-			WlUzo3lNpiWPcWH79wx6cqp14A2TRJqbumLbUWO3/AA=
+			w3SneB2T1VT13Qxc88+ozTRkkNIFtqTHvlB5yi8OYvQ=
 			</data>
 		</dict>
 		<key>Modules/UXCamSwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HZj6g6tkR8RjKES2IKqbhdReYt8=
-			</data>
 			<key>hash2</key>
 			<data>
-			jESwXHfvBQec7zngmRg2RIykRlVQXLD7WF5utaSAyu8=
+			VFVrnurkJzUSLRuZnyZ5wINDrK8vPPOc27VO9PRj/Fk=
 			</data>
 		</dict>
 		<key>Modules/UXCamSwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HeQOAUgS3cPtBiUaWrG3ljEOr4o=
-			</data>
 			<key>hash2</key>
 			<data>
-			WlUzo3lNpiWPcWH79wx6cqp14A2TRJqbumLbUWO3/AA=
+			w3SneB2T1VT13Qxc88+ozTRkkNIFtqTHvlB5yi8OYvQ=
 			</data>
 		</dict>
 		<key>Modules/UXCamSwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1V8EzSnGZKVgQCB0v7cTBLxGxHc=
-			</data>
 			<key>hash2</key>
 			<data>
-			txXkJyoB5bLbl/xYWwFvRFJWUQNzbyOru2z6iC+fEgY=
+			wGx/gD5luWtfHC/o1ZxRV3BWfQu3vfnKidYZxUhf4/0=
 			</data>
 		</dict>
 		<key>Modules/UXCamSwiftUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			D8DgVLnvZxW4OhmCtPsdubOyaBQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			0jwt/QqgvcIU+ZqdWYa8s2ZwlIpdood68Jcz/Z0v6uE=
+			aiWnNjxHMDj9tpT6//ecymjUY7ghe3k+e8eE2UEc71Y=
 			</data>
 		</dict>
 		<key>Modules/UXCamSwiftUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pw+k6iMFkwopjKLEtPa/VPYFX/U=
-			</data>
 			<key>hash2</key>
 			<data>
-			iWYAZPLbfSw/X7yqkaWTtotzclDB8frTwaI+5ay+OJg=
+			mlfs0WXw5zLLRLPJwnJNQT4Yqn4LZKkA9hXWRXSvmPI=
 			</data>
 		</dict>
 		<key>Modules/UXCamSwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			r5+3yfZxeX9Tn02ycbrz9Nm8t9I=
-			</data>
 			<key>hash2</key>
 			<data>
-			kbuc1L77NXyz5oX2r+XLQpkm1qI8GIo5HkaBCLPI1W4=
+			PfHJExAlnTshu3zyIDt+X5x1gGvoD+5nny9JsFbKXXc=
 			</data>
 		</dict>
 		<key>Modules/UXCamSwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pw+k6iMFkwopjKLEtPa/VPYFX/U=
-			</data>
 			<key>hash2</key>
 			<data>
-			iWYAZPLbfSw/X7yqkaWTtotzclDB8frTwaI+5ay+OJg=
+			mlfs0WXw5zLLRLPJwnJNQT4Yqn4LZKkA9hXWRXSvmPI=
 			</data>
 		</dict>
 		<key>Modules/UXCamSwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mJdpBthjhPbH1c4gJ2s7WZKE/lk=
-			</data>
 			<key>hash2</key>
 			<data>
-			iz3il9SvNTwB6Iz/OMk6g3+mwUK5uvNPZyDL49i8bVg=
+			nMjXFGqVhyIRRpv1P2BbpbMwalwYaNm4XpfeElxBMPc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MHhji3iYoKySFVacrLaTMarZef0=
-			</data>
 			<key>hash2</key>
 			<data>
-			T0g5ipWL1TyZkyVC5loYUDWS3l4CU82KxptNksgLr2s=
+			gkeYwFnHC1nf4zRJ/3swyAgM2ABEC/um7n/fwWql5+I=
 			</data>
 		</dict>
 		<key>README.md</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rlUIkoRBfq0YAfG+DX789OGJm+k=
-			</data>
 			<key>hash2</key>
 			<data>
-			rhWdG99E8dfry5Si0quU3CR0EMrQkybkwrKc6LVUd1I=
+			Edsfr9GGqRRPhEmm1v1pBVOd8Ds4ngG7L2DzwIDLE7Y=
 			</data>
 		</dict>
 	</dict>

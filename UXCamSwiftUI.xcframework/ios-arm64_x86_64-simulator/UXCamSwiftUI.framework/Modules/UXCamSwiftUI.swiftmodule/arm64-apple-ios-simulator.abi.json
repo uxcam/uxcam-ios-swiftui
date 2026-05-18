@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "UXCamSwiftUI",
+    "printedName": "UXCamSwiftUI",
     "children": [
       {
         "kind": "Import",
@@ -76,24 +76,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -104,10 +90,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -118,10 +118,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -191,30 +205,16 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ModifiedContent",
-                "printedName": "SwiftUI.ModifiedContent<τ_0_0, SwiftUI._BackgroundModifier<UXCamSwiftUI.UXCamOccludedView>>",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "_BackgroundModifier",
-                    "printedName": "SwiftUI._BackgroundModifier<UXCamSwiftUI.UXCamOccludedView>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UXCamOccludedView",
-                        "printedName": "UXCamSwiftUI.UXCamOccludedView",
-                        "usr": "s:12UXCamSwiftUI0A12OccludedView33_43029274E42EC9A505197FA6E02F8343LLV"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI19_BackgroundModifierV"
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
                   }
-                ],
-                "usr": "s:7SwiftUI15ModifiedContentV"
+                ]
               },
               {
                 "kind": "TypeNominal",
@@ -231,6 +231,8 @@
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -244,22 +246,16 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ModifiedContent",
-                "printedName": "SwiftUI.ModifiedContent<τ_0_0, SwiftUI._AppearanceActionModifier>",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "_AppearanceActionModifier",
-                    "printedName": "SwiftUI._AppearanceActionModifier",
-                    "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
                   }
-                ],
-                "usr": "s:7SwiftUI15ModifiedContentV"
+                ]
               },
               {
                 "kind": "TypeNominal",
@@ -275,6 +271,8 @@
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -285,7 +283,7 @@
         "declKind": "Protocol",
         "usr": "s:7SwiftUI4ViewP",
         "mangledName": "$s7SwiftUI4ViewP",
-        "moduleName": "SwiftUI",
+        "moduleName": "SwiftUICore",
         "genericSig": "<τ_0_0.Body : SwiftUI.View>",
         "sugared_genericSig": "<Self.Body : SwiftUI.View>",
         "intro_Macosx": "10.15",
@@ -293,76 +291,50 @@
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
         "declAttributes": [
+          "Preconcurrency",
           "TypeEraser",
+          "TypeEraser",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
           "Available",
           "Available",
           "Available",
-          "Available"
+          "Available",
+          "Custom"
         ],
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Volumes\/workspace\/repository\/UXCamSwiftUI\/UXCamSwiftUI.swift",
-      "kind": "BooleanLiteral",
-      "offset": 744,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/workspace\/repository\/UXCamSwiftUI\/UXCamSwiftUI.swift",
-      "kind": "StringLiteral",
-      "offset": 1206,
-      "length": 9,
-      "value": "\"SwiftUI\""
-    },
-    {
-      "filePath": "\/Volumes\/workspace\/repository\/UXCamSwiftUI\/UXCamSwiftUI.swift",
-      "kind": "StringLiteral",
-      "offset": 1226,
-      "length": 7,
-      "value": "\"1.0.7\""
-    },
-    {
-      "filePath": "\/Volumes\/workspace\/repository\/UXCamSwiftUI\/UXCamSwiftUI.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1597,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/workspace\/repository\/UXCamSwiftUI\/UXCamSwiftUI.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1631,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/workspace\/repository\/UXCamSwiftUI\/UXCamSwiftUI.swift",
-      "kind": "StringLiteral",
-      "offset": 1718,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Volumes\/workspace\/repository\/UXCamSwiftUI\/UXCamSwiftUI.swift",
-      "kind": "StringLiteral",
-      "offset": 1415,
-      "length": 19,
-      "value": "\"UXCamSwiftUI.UXCamOccludedUIView\""
-    },
-    {
-      "filePath": "\/Volumes\/workspace\/repository\/UXCamSwiftUI\/UXCamSwiftUI.swift",
+      "filePath": "\/Users\/rajendrakarki\/development\/Workspace\/UXCam_SDK\/ios-swiftui\/UXCamSwiftUI\/UXCamSwiftUI.swift",
       "kind": "BooleanLiteral",
       "offset": 1848,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/UXCamSwiftUI\/UXCamSwiftUI.swift",
+      "filePath": "\/Users\/rajendrakarki\/development\/Workspace\/UXCam_SDK\/ios-swiftui\/UXCamSwiftUI\/UXCamSwiftUI.swift",
       "kind": "BooleanLiteral",
       "offset": 2663,
       "length": 4,
