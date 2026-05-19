@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.author   			= { 'UXCam' => 'admin@uxcam.com' }
   s.social_media_url 	= "https://www.twitter.com/uxcam"
-  s.documentation_url 	= 'https://developer.uxcam.com/docs/swiftui'
+  s.documentation_url 	= 'https://developer.uxcam.com/docs/swiftui-ios'
   
   s.platform 			= :ios, 13.0
 
