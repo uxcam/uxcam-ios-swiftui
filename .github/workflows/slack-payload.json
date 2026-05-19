@@ -1,0 +1,34 @@
+{
+    "text": ":rocket: UXCamSwiftUI iOS SDK Released :rocket:",
+	"blocks": [
+        {
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "<!here> UXCamSwiftUI iOS SDK __NATIVE_VERSION__ has been published to Cocoapods and SPM\n:rocket: UXCamSwiftUI iOS SDK  __NATIVE_VERSION__ :rocket:\n:date:  __RELEASE_DATE__"
+			}
+		},
+		{
+			"type": "section",
+			"fields": [
+				{
+					"type": "mrkdwn",
+					"text": "*CHANGELOG (Internal):*\n__CHANGELOG__"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"fields": [
+				{
+					"type": "mrkdwn",
+					"text": "*SDK*\niOS SDK"
+				},
+				{
+					"type": "mrkdwn",
+					"text": "*Version*\n__NATIVE_VERSION__"
+				}
+			]
+		}
+	]
+}
