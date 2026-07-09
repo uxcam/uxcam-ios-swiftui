@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     			= 'UXCamSwiftUI'
-  s.version  			= '1.0.8'
+  s.version  			= '1.0.9'
   
   s.summary 			= "UXCam SwiftUI wrapper SDK for iOS applications"
   s.description 		= <<-DESC
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.author   			= { 'UXCam' => 'admin@uxcam.com' }
   s.social_media_url 	= "https://www.twitter.com/uxcam"
-  s.documentation_url 	= 'https://developer.uxcam.com/docs/swiftui-ios'
+  s.documentation_url 	= 'https://developer.uxcam.com/docs/swiftui'
   
   s.platform 			= :ios, 13.0
 
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.static_framework 	= true
   s.requires_arc		= true
   
-  s.dependency 'UXCam', '3.8.2'
+  s.dependency 'UXCam', '~>3.8.4'
   s.swift_version = '5.0'
 
 end
