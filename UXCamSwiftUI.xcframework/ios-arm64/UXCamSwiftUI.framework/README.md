@@ -1,8 +1,7 @@
 # UXCam-SwiftUI
 
-
 This package is the framework for the UXCam SwiftUI wrapper.
-It depends on the main UXCam framework, v3.8.4.
+It depends on the main UXCam framework, v3.9.0.
 
 Internally it uses some of the ideas in the [Introspect](https://github.com/siteline/SwiftUI-Introspect.git) library, but that library itself is not included here.
 
@@ -15,17 +14,17 @@ Internally it uses some of the ideas in the [Introspect](https://github.com/site
 Add an `init` method to your main App struct.
 
 Call `UXCamSwiftUI.start(with: UXCamSwiftUI.Configuration)` with your configuration to start the UXCam SDK in SwiftUI mode.
-**NB:** The configuration option `enableAutomaticScreenNameTagging` defaults to false in the UXCamSwiftUI library (manual screen tagging is required in SwiftUI)
+**NB:** The configuration option `enableAutomaticScreenNameTagging` defaults to false in the UXCamSwiftUI library as manual screen tagging is required in SwiftUI.
 
 eg. 
 
 ```swift
-	init()
-	{
-		UXCamCore.optIntoSchematicRecordings()
-		let config = UXCamSwiftUI.Configuration(appKey: "YOUR APP KEY")
-		UXCamSwiftUI.start(with: config)
-	}
+    init()
+    {
+        UXCamCore.optIntoVideoRecordings()
+        let config = UXCamSwiftUI.Configuration(appKey: "YOUR APP KEY")
+        UXCamSwiftUI.start(with: config)
+    }
 ```
 
 To call a completion block when the UXCam session verify completes use:  
@@ -43,8 +42,8 @@ eg.
 ```swift
 var body: some View
 {
-	Text("Hello world")
-		.uxcamTagScreenName("HelloScreen")
+    Text("Hello world")
+        .uxcamTagScreenName("HelloScreen")
 }
 ```
 ### Sensitive view hiding
@@ -57,14 +56,14 @@ eg.
 ```swift
 var body: some View  
 {  
-	VStack
-	{
-		Text("Personal data: XYZ")  
-	 		.uxcamOcclude()  
+    VStack
+    {
+        Text("Personal data: XYZ")  
+             .uxcamOcclude()  
 
-		Text("Personal data: Gestures seen")  
-			.uxcamOcclude(blockGestures: false)
-	}
+        Text("Personal data: Gestures seen")  
+            .uxcamOcclude(blockGestures: false)
+    }
 }  
 ```
  

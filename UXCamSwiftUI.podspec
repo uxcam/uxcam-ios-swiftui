@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     			= 'UXCamSwiftUI'
-  s.version  			= '1.0.9'
+  s.version  			= '1.10.0'
   
   s.summary 			= "UXCam SwiftUI wrapper SDK for iOS applications"
   s.description 		= <<-DESC
@@ -8,10 +8,7 @@ Pod::Spec.new do |s|
                   This is version #{s.version} of the SDK - see CHANGELOG for details
                   DESC
   s.homepage 			= "https://uxcam.com/"
-  s.license      		= {
-    'type' => 'Copyright',
-    'text' => 'Copyright (c) 2021-2026, UXCam Inc. All rights reserved.'
-  }
+  s.license       = { :type => 'BSD' }
 
   s.author   			= { 'UXCam' => 'admin@uxcam.com' }
   s.social_media_url 	= "https://www.twitter.com/uxcam"
@@ -25,7 +22,7 @@ Pod::Spec.new do |s|
   s.static_framework 	= true
   s.requires_arc		= true
   
-  s.dependency 'UXCam', '3.8.4'
+  s.dependency 'UXCam', '3.9.0'
   s.swift_version = '5.0'
 
 end
