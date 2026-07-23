@@ -21,7 +21,7 @@ eg.
 ```swift
 	init()
 	{
-		UXCamCore.optIntoSchematicRecordings()
+		UXCamCore.optIntoVideoRecordings()
 		let config = UXCamSwiftUI.Configuration(appKey: "YOUR APP KEY")
 		UXCamSwiftUI.start(with: config)
 	}
