@@ -2,7 +2,7 @@
 import PackageDescription
 
 let version = "1.10.0"
-let checksum = "2a27267dcd46038d5d06eb88ae092ed5a65b4870c4c638299e1fa21b9247d12c"
+let checksum = "5b54d8df16b15ed290b2e581d26c96a4c2e573b04339480d540c7a30e64f1ca0"
 let repoName = "uxcam-ios-swiftui"
 
 let package = Package(
