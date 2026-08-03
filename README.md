@@ -1,5 +1,8 @@
 # UXCam-SwiftUI
 
+> [!IMPORTANT]
+> This repository is archived and no longer maintained. Please migrate to the latest SwiftUI package at [uxcam/uxcam-swiftui](https://github.com/uxcam/uxcam-swiftui).
+
 This package is the framework for the UXCam SwiftUI wrapper.
 It depends on the main UXCam framework, v3.8.4.
 
